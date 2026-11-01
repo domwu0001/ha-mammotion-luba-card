@@ -1,0 +1,12 @@
+{
+  "name": "ha-mammotion-luba-card",
+  "version": "0.1.0",
+  "description": "Home Assistant Lovelace card for Mammotion Luba robotic lawn mowers",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "npm run build && node --check dist/ha-mammotion-luba-card.js",
+    "test": "node --test test/*.test.mjs"
+  },
+  "license": "MIT"
+}
